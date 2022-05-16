@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <div class="container">
+            <% quizq.forEach((quiz)=>{%>
+            <div class="main">
+                
+                    <h2 class="head"><%=quiz.question%></h2>
+                    <ul>
+                        <li><input type="Radio" name="<%=quiz.ans%>" id="ans1"  class="answer">
+                            
+                            <label for="ans1" id="op1"><%=quiz.a%></label>
+                        </li>
+                        <li><input type="Radio" name="<%=quiz.ans%>" id="ans2" class="answer" >
+        
+                            <label for="ans2" id="op2"><%=quiz.b%></label>
+                        </li>
+                        <li><input type="Radio" name="<%=quiz.ans%>" id="ans3" class="answer">
+        
+                            <label for="ans3" id="op3"><%=quiz.c%></label>
+                        </li>
+                        <li><input type="Radio" name="<%=quiz.ans%>" id="ans4" class="answer">
+        
+                            <label for="ans4" id="op4"><%=quiz.d%></label>
+                        </li>
+                        
+                    </ul>
+                   
+               <% })%>
+               <button type="button" id="btn">Submit</button>
+            </div>
+        </div>
+       
+            <script src="quiz.js"></script>
+    </body>
+</body>
+</html>

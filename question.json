@@ -1,0 +1,39 @@
+[
+    {
+        "question":"Q1 What Is The Full Form of HTML?",
+        "a":"Hey Text Markup Language",
+        "b":"HyperText Makeup Language",
+        "c":"HyperTest Markup Language",
+        "d":"HyperText Markup Language",
+       
+        "ans":"ans4"
+    },
+
+    {
+        "question":"Q2 What Is The Full Form of CSS?",
+        "a":"Cascading Style Sheets",
+        "b":"Cartoon Style Sheets",
+        "c":"Cascading Style Sheep",
+        "d":"Cascading Super Sheets",
+       
+        "ans":"ans1"
+    },
+    {
+        "question":"Q3 What Is The Full Form of HTTP?",
+        "a":"Hey Text Transfer Protocol",
+        "b":"HyperText Protocol",
+        "c":"Hey Transfer Text Protocol",
+        "d":"HyperText Transfer Protocol",
+       
+        "ans":"ans4"
+    },
+    {
+        "question":"Q4 Do you Like The App",
+        "a":"Yes",
+        "b":"Its Amazing",
+        "c":"obviously",
+        "d":"No",
+       
+        "ans":"ans1"
+    }
+]
